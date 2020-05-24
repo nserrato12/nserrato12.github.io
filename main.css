@@ -178,8 +178,9 @@
 #contact-heading {
     text-align: center;
     font-size: 7rem;
-    padding-top: 20vh;
-    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    height: 50vh;
     color: white;
 }
 
@@ -187,6 +188,7 @@
     display: flex;
     justify-content: space-evenly;
     background: white;
+    height: 50vh;
     padding-top: 91px;
     padding-bottom: 95px;
     margin-top: -95px;
@@ -266,9 +268,6 @@
         width: 550px;
         height: 346px;
     }
-    #contacts {
-        height: 75vh;
-    }
     #contact-heading {
         font-size: 6.5rem;
         padding-top: 0vh;
@@ -332,9 +331,6 @@
         height: 330px;
         margin-top: 20px;
         margin-right: 0px;
-    }
-    #contacts {
-        height: 90vh;
     }
     #contact-heading {
         font-size: 5.5rem;
