@@ -13,7 +13,7 @@
 <body>
     <Section id="navbar">
         <figure id="name">
-            <h1>Nathaniel Serrato</h1>
+            <h1><a href="#welcome-section" id="name-link">Nathaniel Serrato</a></h1>
         </figure>
         <nav id="nav-group">
             <a href="#about" class="nav-link">About</a>
@@ -22,18 +22,82 @@
         </nav>
     </Section>
     <section id="welcome-section">
-        <figcaption id="welcome-cap">
-            <h1>Hi, I'm Nathaniel Serrato.</h1>
-            <h2>Your next Web Developer.</h2>
-        </figcaption>
         <figure>
             <img src="https://scontent.fsac1-1.fna.fbcdn.net/v/t1.0-9/14947926_1135335529890445_8062554554917671497_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=aSqqDHXS7oMAX_LgxfP&_nc_ht=scontent.fsac1-1.fna&oh=4722d9f05ca980b79ce40c96c8649a8b&oe=5EE7CC13" alt="Nathaniel on GMR"
                 id="welcome-img">
         </figure>
+        <figcaption id="welcome-cap">
+            <h1>Hi, I'm Nathaniel Serrato.</h1>
+            <h2>Your next Web Developer.</h2>
+        </figcaption>
     </section>
-    <section id="about"></section>
-    <main id="projects"></main>
-    <section id="contacts"></section>
+    <section id="about">
+        <header id="about-header">About Me</header>
+        <main id="about-main">
+            <article id="about-p">
+                <h2>My Story</h2>
+                <p>I started coding in April 2020 because a good friend of mine told me coding was like solving puzzles all day. I am a huge fan of solvintg problems so I thought I would give it a try. I never knew I would love coding as much as I do. In
+                    the short time that I have been coding I have learned basic HTML, CSS, and JavaScript. By no means am I an expert but I do learn quickly and I work very hard towards things I love to do.</p>
+                <br>
+                <h2>Degrees/Achievements</h2>
+                <ul class="about-ul">
+                    <li>BA in Counseling Psychology</li>
+                    <li>Certificates from FREECODECAMP</li>
+                    <li>Self-taught Front End Developer</li>
+                </ul>
+                <br>
+                <h2>Coding Languages</h2>
+                <ul class="about-ul">
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </article>
+            <img src="https://images.squarespace-cdn.com/content/v1/58c47342c534a58f938a8258/1589407422349-OLB2CEE6TMHF79LKSGPV/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/Nathaniel+Serrato"
+                alt="Nathaniel at GateWay Visalia" id="about-img">
+        </main>
+    </section>
+    <main id="projects">
+        <header id="project-header">Projects</header>
+        <section class="project-flex">
+            <a href="https://9ny5u.csb.app/" target="_blank" class="project-tile">
+                <img src="https://screenshots.codesandbox.io/9ny5u.png" alt="Tribute Page Project" class="project-img">
+                <p class="project-p">Tribute Page</p>
+            </a>
+            <a href="https://2qtog.csb.app/" target="_blank" class="project-tile">
+                <img src="https://screenshots.codesandbox.io/2qtog.png" alt="Survey Form Project" class="project-img">
+                <p class="project-p">Survey Form</p>
+            </a>
+        </section>
+        <section class="project-flex">
+            <a href="https://sr3hq.csb.app/" target="_blank" class="project-tile">
+                <img src="https://screenshots.codesandbox.io/sr3hq.png" alt="Product Landing Page Project" class="project-img">
+                <p class="project-p">Product Landing Page</p>
+            </a>
+            <a href="https://lujup.csb.app/" target="_blank" class="project-tile">
+                <img src="https://screenshots.codesandbox.io/lujup.png" alt="Technical Documentation Project" class="project-img">
+                <p class="project-p">Technical Documentation</p>
+            </a>
+        </section>
+    </main>
+    <section id="contacts">
+        <h1 id="contact-heading">Want to get in touch?</h1>
+        <nav id="contact-nav">
+            <a href="https://www.facebook.com/nathaniel.serrato/" class="contacts-link" target="_blank">
+                <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-512.png" alt="facebook logo" class="contacts-img">
+                <p class="contacts-p">Facebook</p>
+            </a>
+            <a href="https://github.com/nserrato12" id="profile-link" target="_blank">
+                <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github logo" class="contacts-img">
+                <p class="contacts-p">GitHub</p>
+            </a>
+            <a href="mailto:nathanielserrato2@gmail.com" class="contacts-link">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-2231/512/112-gmail_email_mail_social-512.png" alt="email logo" class="contacts-img">
+                <p class="contacts-p">Email Me</p>
+            </a>
+        </nav>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
