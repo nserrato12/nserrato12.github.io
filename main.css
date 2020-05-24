@@ -221,9 +221,6 @@
 }
 
 @media (max-width: 1124px) {
-    #navbar {
-        background: red;
-    }
     #about-p {
         margin: 0vw 10vw 0vw 0vw;
         font-size: 1rem;
@@ -234,9 +231,6 @@
 }
 
 @media (max-width: 933px) {
-    #navbar {
-        background: white;
-    }
     #welcome-cap {
         font-size: 1.7rem;
     }
@@ -292,9 +286,6 @@
 }
 
 @media (max-width: 720px) {
-    #navbar {
-        background: blue;
-    }
     .nav-link {
         font-size: 0.97rem;
         padding: 17.7px 30px;
@@ -356,9 +347,6 @@
 }
 
 @media (max-width: 591px) {
-    #navbar {
-        background: black;
-    }
     #welcome-section {
         min-height: 680px;
     }
