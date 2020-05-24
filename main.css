@@ -171,7 +171,7 @@
 #contacts {
     background: black;
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -180,8 +180,8 @@
     text-align: center;
     font-size: 7rem;
     padding-top: 10vh;
-    padding-bottom: 5vh;
-    height: 50vh;
+    padding-bottom: 10vh;
+    height: 100vh;
     color: white;
 }
 
@@ -275,6 +275,7 @@
     #contact-heading {
         font-size: 6.5rem;
         padding-top: 0vh;
+        padding-bottom: 28vh;
     }
     #contact-nav {
         padding-top: 100px;
@@ -358,8 +359,10 @@
     #navbar {
         background: black;
     }
+    #welcome-section {
+        min-height: 680px;
+    }
     #name {
-
         font-size: 0.9rem;
         line-height: 0.7rem;
     }
@@ -378,8 +381,11 @@
         width: 290px;
         height: 300px;
     }
+    #projects {
+        height: 1560px;
+    }
     .project-flex {
-        height: 80vh;
+        height: 720px;
         justify-content: space-evenly;
     }
     .project-tile {
